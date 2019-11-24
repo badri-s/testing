@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <Button
+            android:id="@+id/rabati"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center|end"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rabati" />
+
+        <Button
+            android:id="@+id/batumi"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/batumi" />
+
+        <Button
+            android:id="@+id/borjomi"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center|start"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/borjomi" />
+
+        <Button
+            android:id="@+id/tbilisi"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/tbilisi" />
+
+        <Button
+            android:id="@+id/kakheti"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="end"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/kakheti" />
+
+        <Button
+            android:id="@+id/svaneti"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="start"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/svaneti" />
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="50dp"
+            android:text="log in"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/simrgvale"
+            android:layout_width="190dp"
+            android:layout_height="60dp"/>
+        <TextView
+            android:text="creative by 1-4-1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:layout_gravity="bottom|center"
+            android:layout_width="230dp"
+            android:layout_height="40dp"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

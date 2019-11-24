@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="-130dp"
+                android:layout_width="2400dp"
+                android:layout_height="300dp"
+                android:src="@drawable/scrollvieww"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:src="@drawable/profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <LinearLayout
+        android:background="@drawable/lierraai"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_width="450dp"
+        android:layout_height="650dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/singupin"
+            android:layout_width="250dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:src="@drawable/video"
+                android:layout_width="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Live Camera"
+                android:textSize="23sp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/singupin"
+            android:layout_width="250dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:src="@drawable/location"
+                android:layout_width="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Search For Location"
+                android:textSize="17sp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:background="@drawable/simrgvale"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="Points"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textColor="#DF000000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
