@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OfflineActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <Button
+            android:id="@+id/backbuttonn1"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/baackkk" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="Offline mode"
+            android:maxLines="1"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/morebtt2"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/dots" />
+    </FrameLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="35sp"
+                android:text="Save Photos"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <Switch
+                android:layout_gravity="end"
+                android:checked="true"
+                android:layout_width="70dp"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="35sp"
+                android:text="Save Informations"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <Switch
+                android:layout_gravity="end"
+                android:checked="true"
+                android:layout_width="70dp"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="35sp"
+                android:text="Save Locations"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <Switch
+                android:layout_gravity="end"
+                android:checked="true"
+                android:layout_width="70dp"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -12,6 +12,15 @@ class ProfileActivity : AppCompatActivity() {
         supportActionBar!!.hide()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
+        savedinfo.setOnClickListener {
+            startActivity(Intent(this,SaveActivity::class.java))
+        }
+        offline.setOnClickListener {
+            startActivity(Intent(this,OfflineActivity::class.java))
+        }
+        settingbtn.setOnClickListener {
+            startActivity(Intent(this,SettingActivity::class.java))
+        }
         morebtt.setOnClickListener {
             startActivity(Intent(this,MoreActivity::class.java))
         }
