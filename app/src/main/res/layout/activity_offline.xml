@@ -11,9 +11,11 @@
         android:layout_height="100dp">
         <Button
             android:id="@+id/backbuttonn1"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10sp"
             android:background="@drawable/baackkk" />
 
         <TextView
@@ -31,8 +33,9 @@
         <Button
             android:id="@+id/morebtt2"
             android:layout_width="50dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center_vertical|end"
+            android:layout_height="50sp"
+            android:layout_marginBottom="10sp"
+            android:layout_gravity="bottom|end"
             android:background="@drawable/dots" />
     </FrameLayout>
     <LinearLayout

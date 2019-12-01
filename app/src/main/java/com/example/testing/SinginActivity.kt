@@ -19,9 +19,9 @@ class SinginActivity : AppCompatActivity() {
         singupbutton.setOnClickListener {
             startActivity(Intent(this,SingupActivity::class.java))
         }
-        val rgolebis =AnimationUtils.loadAnimation(this,R.anim.rgolebis)
+        val singin =AnimationUtils.loadAnimation(this,R.anim.singin)
         val singinlay = findViewById(R.id.singinlay) as LinearLayout
-        singinlay.startAnimation(rgolebis)
+        singinlay.startAnimation(singin)
         reginbutton.setOnClickListener {
             startActivity(Intent(this,ProfileActivity::class.java))
         }

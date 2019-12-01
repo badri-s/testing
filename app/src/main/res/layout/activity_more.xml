@@ -9,91 +9,129 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="300dp">
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_marginLeft="-130dp"
-                android:layout_width="2400dp"
-                android:layout_height="300dp"
-                android:src="@drawable/scrollvieww"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/profile1"
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kaitbilisi" />
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/hiking1" />
+
+
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/sighnaghi" />
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rabaatii" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/kaisvaneti" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/khevi"/>
 
         </LinearLayout>
     </HorizontalScrollView>
+
     <ImageView
-        android:src="@drawable/profile"
         android:layout_width="60dp"
-        android:layout_height="60dp"/>
+        android:layout_height="60dp"
+        android:src="@drawable/profile" />
+
     <LinearLayout
-        android:background="@drawable/lierraai"
-        android:orientation="vertical"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="-30dp"
         android:layout_width="450dp"
-        android:layout_height="650dp">
+        android:layout_height="650dp"
+        android:layout_margin="-20dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/lierraai"
+        android:orientation="vertical">
+
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_marginTop="300dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/singupin"
             android:layout_width="250dp"
-            android:layout_height="40dp">
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/singupin"
+            android:orientation="horizontal">
+
             <ImageView
-                android:src="@drawable/video"
+                android:layout_margin="10sp"
                 android:layout_width="40dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
-                android:layout_height="30dp"/>
+                android:src="@drawable/video" />
+
             <TextView
+                android:id="@+id/livecamera"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Live Camera"
-                android:textSize="23sp"
                 android:maxLines="1"
-                android:textStyle="bold"
+                android:text="Live Camera"
+                android:textAlignment="center"
                 android:textColor="#000"
-                android:textAlignment="center"/>
-
+                android:textSize="23sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/lokation"
-            android:orientation="horizontal"
-            android:layout_marginTop="30dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/singupin"
             android:layout_width="250dp"
-            android:layout_height="40dp">
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/singupin"
+            android:orientation="horizontal">
+
             <ImageView
-                android:src="@drawable/location"
                 android:layout_width="40dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
-                android:layout_height="30dp"/>
+                android:src="@drawable/location" />
+
             <TextView
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Search For Location"
-                android:textSize="17sp"
+                android:layout_marginTop="10dp"
                 android:maxLines="1"
-                android:textStyle="bold"
+                android:text="Search For Location"
+                android:textAlignment="center"
                 android:textColor="#000"
-                android:textAlignment="center"/>
+                android:textSize="17sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
         <TextView
-            android:layout_marginTop="30dp"
-            android:background="@drawable/simrgvale"
+            android:id="@+id/pointbtt"
             android:layout_width="250dp"
             android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/simrgvale"
             android:text="Points"
             android:textAlignment="center"
-            android:textSize="50sp"
             android:textColor="#DF000000"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal" />
+            android:textSize="50sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>

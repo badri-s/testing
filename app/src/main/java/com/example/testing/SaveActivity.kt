@@ -1,7 +1,9 @@
 package com.example.testing
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_save.*
 
 class SaveActivity : AppCompatActivity() {
 
@@ -9,5 +11,12 @@ class SaveActivity : AppCompatActivity() {
         supportActionBar!!.hide()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_save)
+        morebtt9.setOnClickListener {
+            startActivity(Intent(this, MoreActivity::class.java))
+        }
+        backsave9.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+
+        }
     }
 }

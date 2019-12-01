@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kentiaraparlamenti"
+    tools:context=".NavigationVRActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/navi"/>
+    <ImageView
+        android:id="@+id/profile4"
+        android:src="@drawable/profile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+    <ImageView
+        android:layout_marginTop="-40dp"
+        android:id="@+id/parlamenta"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/kentiaraparlamenti"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/down2"
+            android:layout_width="50dp"
+            android:layout_height="30sp"
+            android:background="@drawable/down"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="80sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:id="@+id/videodaiwye2"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_weight="25"
+                android:text="video"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_weight="25"
+                android:textStyle="italic"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:text="VR"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:id="@+id/navigation1"
+                android:layout_weight="25"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:text="photo"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_weight="25"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:text="info"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:textColor="#D2000000"
+            android:textStyle="normal"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Buy VR packet"
+            android:background="@drawable/simrgvale"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="50sp"
+            android:layout_gravity="bottom"/>
+    </FrameLayout>
+
+</FrameLayout>

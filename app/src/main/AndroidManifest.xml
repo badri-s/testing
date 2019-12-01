@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testing">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature android:name="android.hardware.Camera2" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SaveActivity"></activity>
+        <activity android:name=".StaticActivity"></activity>
+        <activity android:name=".RequestActivity" />
+        <activity android:name=".BoardSecondActivity" />
+        <activity android:name=".BoardFirstActivity" />
+        <activity android:name=".PointActivity" />
+        <activity android:name=".NavigationInfoActivity" />
+        <activity android:name=".NavigationVRActivity" />
+        <activity android:name=".NavigattionActivity" />
+        <activity android:name=".VideoPlayActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".SaveActivity" />
         <activity android:name=".OfflineActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".MoreActivity" />
@@ -25,6 +41,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB0HVXf3B7taN9FassIIBrZXvvxTR_ALzA" />
     </application>
 
 </manifest>

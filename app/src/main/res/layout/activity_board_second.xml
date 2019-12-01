@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BoardSecondActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/dabrunebaukan4"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/baackkk" />
+
+
+        <Button
+            android:id="@+id/esecmoreshi4"
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/dots" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20sp">
+
+        <TextView
+            android:id="@+id/firstboard"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Top 5 users"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/pointshopbtt"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="center_vertical|end"
+            android:text="Point Shop"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:textSize="13sp"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:text="Your position is: 10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="All users: 600"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="Your points: 350"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_margin="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/savemcxeta">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:background="#65CABEBE"
+                    android:text="Price: 600pt           Tour:1-day trip"
+                    android:textColor="#fff"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_margin="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/savemcxeta">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:background="#65CABEBE"
+                    android:text="Price: 600pt           Tour:1-day trip"
+                    android:textColor="#fff"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_margin="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/savemcxeta">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:background="#65CABEBE"
+                    android:text="Price: 600pt           Tour:1-day trip"
+                    android:textColor="#fff"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_margin="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/savemcxeta">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:background="#65CABEBE"
+                    android:text="Price: 600pt           Tour:1-day trip"
+                    android:textColor="#fff"/>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -9,13 +9,6 @@
 <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="270dp">
-    <Button
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_gravity="start"
-        android:layout_width="30dp"
-        android:layout_height="50dp"
-        android:background="@drawable/baackkk"/>
     <ImageView
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
@@ -55,7 +48,7 @@
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/savedinfo"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Saved Informations"
@@ -64,7 +57,7 @@
             android:textColor="#000"/>
         <TextView
             android:id="@+id/settingbtn"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Settings"
@@ -73,7 +66,7 @@
             android:textColor="#000"/>
         <TextView
             android:id="@+id/offline"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Offline Mode"
@@ -82,7 +75,7 @@
             android:textColor="#000"/>
         <TextView
             android:id="@+id/request"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Request "
@@ -90,7 +83,8 @@
             android:textStyle="normal"
             android:textColor="#000"/>
         <TextView
-            android:layout_margin="5dp"
+            android:id="@+id/statics"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" Statics"
@@ -105,7 +99,7 @@
                 android:text="Push Notifications"
                 android:textStyle="normal"
                 android:textSize="30dp"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:textColor="#F10909"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"/>
