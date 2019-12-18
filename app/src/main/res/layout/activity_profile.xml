@@ -1,115 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:layout_marginTop="20sp"
     tools:context=".ProfileActivity">
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="270dp">
-    <ImageView
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/profile"/>
-    <TextView
-        android:layout_marginTop="155dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="150dp"
-        android:layout_height="35dp"
-        android:background="@drawable/singinbutton"
-        android:text="Level:7"
-        android:textColor="#000"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textAlignment="center"/>
-    <ImageView
-        android:id="@+id/switched"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
-        android:layout_width="40dp"
-        android:layout_height="50dp"
-        android:src="@drawable/notification"
-        android:layout_gravity="center_horizontal"/>
     <Button
         android:id="@+id/morebtt"
-        android:background="@drawable/dots"
-        android:layout_gravity="end"
         android:layout_width="50dp"
-        android:layout_height="50dp"/>
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:background="@drawable/ic_widgets_more_24dp" />
 
-</FrameLayout>
-    <LinearLayout
-        android:orientation="vertical"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile" />
+
         <TextView
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/singinbutton"
+            android:text="Level:7"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/switched"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/notification" />
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:lines="1"
+            android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
             android:id="@+id/savedinfo"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text=" Saved Informations"
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:textColor="#000"/>
+            android:textColor="#474141"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
         <TextView
             android:id="@+id/settingbtn"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text=" Settings"
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:textColor="#000"/>
+            android:textColor="#474141"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
         <TextView
             android:id="@+id/offline"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:lines="1"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+            android:layout_margin="10dp"
             android:text=" Offline Mode"
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:textColor="#000"/>
+            android:textColor="#474141"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
         <TextView
             android:id="@+id/request"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text=" Request "
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:textColor="#000"/>
+            android:textColor="#474141"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+
         <TextView
             android:id="@+id/statics"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:text=" Statics"
+            android:textColor="#474141"
+            android:textSize="25dp"
+            android:textStyle="normal" />
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Statics"
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:textColor="#000"/>
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:orientation="horizontal">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Push Notifications"
-                android:textStyle="normal"
-                android:textSize="30dp"
-                android:layout_margin="10dp"
-                android:textColor="#F10909"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"/>
+                android:lines="1"
+                android:textColor="#E83420"
+                android:textSize="25dp"
+                android:textStyle="normal" />
+
             <Switch
-                android:checked="true"
+                android:layout_marginLeft="20sp"
                 android:id="@+id/switch1"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
         </LinearLayout>
+
 
     </LinearLayout>
 
-</LinearLayout>
+</FrameLayout>

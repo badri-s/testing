@@ -14,9 +14,9 @@
         <Button
             android:layout_margin="15sp"
             android:id="@+id/backsave9"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
-            android:background="@drawable/baackkk" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_chevron_left_back_24dp" />
         <TextView
             android:textSize="30sp"
             android:textStyle="bold"
@@ -32,7 +32,7 @@
             android:layout_gravity="end"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:background="@drawable/dots"/>
+            android:background="@drawable/ic_widgets_more_24dp"/>
     </FrameLayout>
     <TextView
         android:layout_margin="10dp"

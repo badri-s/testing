@@ -11,12 +11,12 @@
         android:layout_height="100dp">
         <Button
             android:id="@+id/backbuttonn1"
-            android:layout_width="40dp"
-            android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:layout_margin="5dp"
             android:layout_marginBottom="10sp"
-            android:background="@drawable/baackkk" />
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_chevron_left_back_24dp" />
 
         <TextView
             android:layout_width="200dp"
@@ -36,9 +36,10 @@
             android:layout_height="50sp"
             android:layout_marginBottom="10sp"
             android:layout_gravity="bottom|end"
-            android:background="@drawable/dots" />
+            android:background="@drawable/ic_widgets_more_24dp" />
     </FrameLayout>
     <LinearLayout
+        android:layout_margin="20sp"
         android:gravity="center"
         android:layout_gravity="center"
         android:orientation="vertical"
@@ -50,7 +51,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="35sp"
+                android:textSize="25sp"
                 android:text="Save Photos"
                 android:textStyle="bold"
                 android:textColor="#000"/>
@@ -67,7 +68,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="35sp"
+                android:textSize="25sp"
                 android:text="Save Informations"
                 android:textStyle="bold"
                 android:textColor="#000"/>
@@ -84,7 +85,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="35sp"
+                android:textSize="25sp"
                 android:text="Save Locations"
                 android:textStyle="bold"
                 android:textColor="#000"/>

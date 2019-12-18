@@ -11,22 +11,23 @@
         android:layout_height="100dp">
 
         <Button
-            android:id="@+id/dabrunebaukan10"
-            android:layout_width="40dp"
-            android:layout_height="60dp"
-            android:layout_gravity="bottom"
             android:layout_margin="10dp"
+            android:layout_gravity="bottom"
             android:layout_marginBottom="10sp"
-            android:background="@drawable/baackkk" />
+            android:id="@+id/dabrunebaukan10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_chevron_left_back_24dp" />
 
 
         <Button
+            android:layout_marginRight="10dp"
             android:id="@+id/esecmoreshi11"
             android:layout_width="50dp"
             android:layout_height="50sp"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="10sp"
-            android:background="@drawable/dots" />
+            android:layout_marginBottom="9sp"
+            android:background="@drawable/ic_widgets_more_24dp" />
     </FrameLayout>
     <TextView
             android:layout_margin="30sp"

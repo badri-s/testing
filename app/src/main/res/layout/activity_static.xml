@@ -12,12 +12,12 @@
 
         <Button
             android:id="@+id/dabrunebaukan12"
-            android:layout_width="40dp"
+            android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:layout_margin="10dp"
             android:layout_marginBottom="10sp"
-            android:background="@drawable/baackkk" />
+            android:background="@drawable/ic_chevron_left_back_24dp" />
 
 
         <Button
@@ -26,14 +26,14 @@
             android:layout_height="50sp"
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="10sp"
-            android:background="@drawable/dots" />
+            android:background="@drawable/ic_widgets_more_24dp" />
     </FrameLayout>
     <TextView
         android:layout_margin="30sp"
         android:textStyle="bold"
         android:text="Static"
         android:textColor="#000"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="60dp"/>
@@ -70,6 +70,7 @@
         android:text="All : 1052"
         android:layout_margin="10sp"/>
     <LinearLayout
+        android:layout_margin="10dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="350dp">
